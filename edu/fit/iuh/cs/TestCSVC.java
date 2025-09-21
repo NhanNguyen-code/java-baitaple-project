@@ -21,7 +21,7 @@ public class TestCSVC{
 	    public static void main(String[] args) {
 	        List<CoSoVatChat> danhSach = initData();
 
-	        System.out.println("===== DANH SÁCH CƠ SỞ VẬT CHẤT =====");
+	        System.out.println("===================================== DANH SÁCH CƠ SỞ VẬT CHẤT =====================================");
 	        for (CoSoVatChat csvc : danhSach) {
 	            System.out.println(csvc);
 	        }
