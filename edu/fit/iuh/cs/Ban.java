@@ -32,7 +32,7 @@ class Ban extends CoSoVatChat{
 	}
 	
 	@Override
-	double canNang() {
+	public double canNang() {
 		return getSoChan() * 10 + doDai * doRong * 10;
 	}
 	
