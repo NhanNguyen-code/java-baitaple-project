@@ -15,12 +15,12 @@ class Ghe extends CoSoVatChat{
 	public void setCoTuaGhe(boolean coTuaGhe) {
 		this.coTuaGhe = coTuaGhe;
 	}
-	
 	@Override
-	double canNang() {
+	public double canNang() {
 		int nangNangCuaTuaGhe = coTuaGhe ? 20 : 0;
 		return getSoChan() * 10 + nangNangCuaTuaGhe;
 	}
+	
 	
     @Override
     public String toString() {
