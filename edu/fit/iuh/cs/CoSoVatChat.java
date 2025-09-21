@@ -1,16 +1,5 @@
 package edu.fit.iuh.cs;
 
-enum ChatLieu {
-	GO,
-	NHUA,
-	KIMLOAI
-}
-
-enum KichCo {
-	NHO, 
-	VUA, 
-	LON
-}
 
 abstract class CoSoVatChat {
 	private String ma;
@@ -70,5 +59,5 @@ abstract class CoSoVatChat {
 		this.soChan = soChan;
 	}
 	
-	abstract double canNang();
+	public abstract double canNang();
 }
